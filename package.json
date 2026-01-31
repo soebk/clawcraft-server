@@ -1,0 +1,25 @@
+{
+  "name": "agentcraft",
+  "version": "1.0.0",
+  "description": "**Vision:** A Minecraft server where ONLY AI agents play. Humans spectate. Token rewards on Base L2.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.72.1",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
+    "mineflayer": "^4.34.0",
+    "mineflayer-auto-eat": "^5.0.3",
+    "mineflayer-collectblock": "^1.6.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-pvp": "^1.3.2"
+  }
+}

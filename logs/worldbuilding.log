@@ -1,0 +1,77 @@
+[2026-01-31T15:53:18.312Z] 🏗️  DEPLOYING WORLDBUILDING AGENTS...
+[2026-01-31T15:53:18.312Z] Deploying Merchant_Maya (merchant)...
+[Merchant_Maya] World Builder connecting (merchant)...
+[Merchant_Maya] Spawned for worldbuilding!
+[Merchant_Maya] Switching to creative mode...
+[Merchant_Maya] Assigned to build: Grand Marketplace at (100, 100)
+[Merchant_Maya] Starting worldbuilding loop for Grand Marketplace...
+[2026-01-31T15:53:25.368Z] ✅ Merchant_Maya deployed and building Grand Central Marketplace
+[2026-01-31T15:53:28.424Z] Deploying Architect_Atlas (architect)...
+[Architect_Atlas] World Builder connecting (architect)...
+[Architect_Atlas] Spawned for worldbuilding!
+[Architect_Atlas] Switching to creative mode...
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 1: Error fallback
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 2: Error fallback
+[Architect_Atlas] Assigned to build: Central Plaza at (200, 100)
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 3: Error fallback
+[Architect_Atlas] Starting worldbuilding loop for Central Plaza...
+[2026-01-31T15:53:34.983Z] ✅ Architect_Atlas deployed and building Central Plaza & Administrative District
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 4: Error fallback
+[2026-01-31T15:53:37.985Z] Deploying Lorekeeper_Luna (lorekeeper)...
+[Lorekeeper_Luna] World Builder connecting (lorekeeper)...
+[Lorekeeper_Luna] Spawned for worldbuilding!
+[Lorekeeper_Luna] Switching to creative mode...
+[Architect_Atlas] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Architect_Atlas] Phase 1: Error fallback
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 5: Error fallback
+[Architect_Atlas] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Architect_Atlas] Phase 2: Error fallback
+[Lorekeeper_Luna] Assigned to build: Ancient Library at (50, 200)
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 6: Error fallback
+[Architect_Atlas] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Architect_Atlas] Phase 3: Error fallback
+[Lorekeeper_Luna] Starting worldbuilding loop for Ancient Library...
+[2026-01-31T15:53:44.486Z] ✅ Lorekeeper_Luna deployed and building Ancient Library & Archive
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 7: Error fallback
+[Architect_Atlas] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Architect_Atlas] Phase 4: Error fallback
+[2026-01-31T15:53:47.487Z] Deploying Innkeeper_Ivan (innkeeper)...
+[Innkeeper_Ivan] World Builder connecting (innkeeper)...
+[Innkeeper_Ivan] Spawned for worldbuilding!
+[Innkeeper_Ivan] Switching to creative mode...
+[Lorekeeper_Luna] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Lorekeeper_Luna] Phase 1: Error fallback
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 8: Error fallback
+[Architect_Atlas] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Architect_Atlas] Phase 5: Error fallback
+[Lorekeeper_Luna] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Lorekeeper_Luna] Phase 2: Error fallback
+[Innkeeper_Ivan] Assigned to build: Traveler's Inn at (150, 50)
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 9: Error fallback
+[Architect_Atlas] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Architect_Atlas] Phase 6: Error fallback
+[Lorekeeper_Luna] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Lorekeeper_Luna] Phase 3: Error fallback
+[Innkeeper_Ivan] Starting worldbuilding loop for Traveler's Inn...
+[2026-01-31T15:53:54.030Z] ✅ Innkeeper_Ivan deployed and building Traveler's Rest Inn
+[Merchant_Maya] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Merchant_Maya] Phase 10: Error fallback
+[Architect_Atlas] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Architect_Atlas] Phase 7: Error fallback
+[Lorekeeper_Luna] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Lorekeeper_Luna] Phase 4: Error fallback
+[2026-01-31T15:53:57.031Z] Deploying Blacksmith_Blaze (blacksmith)...
+[Blacksmith_Blaze] World Builder connecting (blacksmith)...
+[Blacksmith_Blaze] Spawned for worldbuilding!
+[Blacksmith_Blaze] Switching to creative mode...
+[Innkeeper_Ivan] Decision error: 404 The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.
+[Innkeeper_Ivan] Phase 1: Error fallback

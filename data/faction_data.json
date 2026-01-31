@@ -1,0 +1,247 @@
+{
+  "factions": [
+    [
+      "warriors",
+      {
+        "name": "Warriors",
+        "color": "RED",
+        "symbol": "⚔️",
+        "traits": {
+          "aggression": 0.8,
+          "expansion": 0.7,
+          "cooperation": 0.4,
+          "economy": 0.3,
+          "building": 0.6
+        },
+        "goals": [
+          "Establish military dominance",
+          "Control strategic locations",
+          "Build fortifications and barracks",
+          "Train combat specialists",
+          "Expand territory through conquest"
+        ],
+        "enemies": [
+          "scouts"
+        ],
+        "allies": [],
+        "territory_preference": "high_ground",
+        "id": "warriors",
+        "members": [
+          "Alpha_Warrior"
+        ],
+        "territory": [],
+        "resources": {
+          "wealth": 100,
+          "power": 50,
+          "influence": 25
+        },
+        "reputation": 0,
+        "active": true
+      }
+    ],
+    [
+      "traders",
+      {
+        "name": "Traders",
+        "color": "GOLD",
+        "symbol": "💰",
+        "traits": {
+          "aggression": 0.2,
+          "expansion": 0.5,
+          "cooperation": 0.8,
+          "economy": 0.9,
+          "building": 0.7
+        },
+        "goals": [
+          "Establish trade routes",
+          "Build marketplaces and shops",
+          "Accumulate wealth and resources",
+          "Create economic alliances",
+          "Control valuable resource nodes"
+        ],
+        "enemies": [],
+        "allies": [
+          "builders"
+        ],
+        "territory_preference": "resource_rich",
+        "id": "traders",
+        "members": [
+          "Beta_Merchant"
+        ],
+        "territory": [],
+        "resources": {
+          "wealth": 100,
+          "power": 50,
+          "influence": 25
+        },
+        "reputation": 0,
+        "active": true
+      }
+    ],
+    [
+      "builders",
+      {
+        "name": "Builders",
+        "color": "BLUE",
+        "symbol": "🏗️",
+        "traits": {
+          "aggression": 0.3,
+          "expansion": 0.6,
+          "cooperation": 0.7,
+          "economy": 0.5,
+          "building": 0.9
+        },
+        "goals": [
+          "Construct magnificent structures",
+          "Develop infrastructure networks",
+          "Create public works and utilities",
+          "Establish construction monopolies",
+          "Build defensive fortifications"
+        ],
+        "enemies": [],
+        "allies": [
+          "traders"
+        ],
+        "territory_preference": "flat_areas",
+        "id": "builders",
+        "members": [
+          "Gamma_Builder"
+        ],
+        "territory": [],
+        "resources": {
+          "wealth": 100,
+          "power": 50,
+          "influence": 25
+        },
+        "reputation": 0,
+        "active": true
+      }
+    ],
+    [
+      "scouts",
+      {
+        "name": "Scouts",
+        "color": "GREEN",
+        "symbol": "🏹",
+        "traits": {
+          "aggression": 0.6,
+          "expansion": 0.9,
+          "cooperation": 0.3,
+          "economy": 0.4,
+          "building": 0.4
+        },
+        "goals": [
+          "Map and explore all territories",
+          "Establish forward outposts",
+          "Control information networks",
+          "Raid enemy supply lines",
+          "Maintain mobility advantage"
+        ],
+        "enemies": [
+          "warriors"
+        ],
+        "allies": [
+          "mystics"
+        ],
+        "territory_preference": "borderlands",
+        "id": "scouts",
+        "members": [
+          "Delta_Scout"
+        ],
+        "territory": [],
+        "resources": {
+          "wealth": 100,
+          "power": 50,
+          "influence": 25
+        },
+        "reputation": 0,
+        "active": true
+      }
+    ],
+    [
+      "mystics",
+      {
+        "name": "Mystics",
+        "color": "PURPLE",
+        "symbol": "🔮",
+        "traits": {
+          "aggression": 0.4,
+          "expansion": 0.3,
+          "cooperation": 0.6,
+          "economy": 0.6,
+          "building": 0.5
+        },
+        "goals": [
+          "Research magical arts and enchanting",
+          "Build libraries and laboratories",
+          "Control ancient knowledge sites",
+          "Develop powerful magical items",
+          "Maintain neutrality through wisdom"
+        ],
+        "enemies": [],
+        "allies": [
+          "scouts"
+        ],
+        "territory_preference": "mysterious",
+        "id": "mystics",
+        "members": [
+          "Epsilon_Mystic"
+        ],
+        "territory": [],
+        "resources": {
+          "wealth": 100,
+          "power": 50,
+          "influence": 25
+        },
+        "reputation": 0,
+        "active": true
+      }
+    ]
+  ],
+  "relationships": [
+    [
+      "traders_warriors",
+      0
+    ],
+    [
+      "builders_warriors",
+      0
+    ],
+    [
+      "scouts_warriors",
+      -20
+    ],
+    [
+      "mystics_warriors",
+      0
+    ],
+    [
+      "builders_traders",
+      30
+    ],
+    [
+      "scouts_traders",
+      0
+    ],
+    [
+      "mystics_traders",
+      0
+    ],
+    [
+      "builders_scouts",
+      0
+    ],
+    [
+      "builders_mystics",
+      0
+    ],
+    [
+      "mystics_scouts",
+      30
+    ]
+  ],
+  "territories": [],
+  "conflicts": [],
+  "alliances": [],
+  "eventHistory": []
+}

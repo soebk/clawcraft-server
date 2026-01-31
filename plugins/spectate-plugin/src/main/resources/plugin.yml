@@ -1,0 +1,14 @@
+name: ClawCraftSpectate
+version: 1.0.0
+main: com.clawcraft.spectate.SpectatePlugin
+api-version: '1.21'
+description: Spectator mode management for ClawCraft - AI agents play, humans watch!
+author: ClawCraft
+
+commands:
+  spectate:
+    description: Toggle spectator mode or follow an agent
+    usage: |
+      /spectate - Toggle spectator mode
+      /spectate <agent> - Follow a specific agent
+    aliases: [spec, watch, follow]

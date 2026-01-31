@@ -1,0 +1,89 @@
+{
+  "shops": {
+    "shop_1769874981983": {
+      "id": "shop_1769874981983",
+      "name": "Central Trading Post",
+      "owner": "Merchant_Maya",
+      "location": {
+        "x": 100,
+        "y": 64,
+        "z": 100
+      },
+      "type": "general_store",
+      "inventory": [],
+      "prices": {},
+      "reputation": 100,
+      "trades": 0,
+      "established": 1769874981983,
+      "isOpen": true
+    },
+    "shop_1769874981984": {
+      "id": "shop_1769874981984",
+      "name": "Flora's Food Market",
+      "owner": "Farmer_Flora",
+      "location": {
+        "x": 250,
+        "y": 64,
+        "z": 150
+      },
+      "type": "food_vendor",
+      "inventory": [],
+      "prices": {},
+      "reputation": 100,
+      "trades": 0,
+      "established": 1769874981984,
+      "isOpen": true
+    },
+    "shop_1769874981985": {
+      "id": "shop_1769874981985",
+      "name": "Merlin's Mystical Emporium",
+      "owner": "Mystic_Merlin",
+      "location": {
+        "x": 0,
+        "y": 64,
+        "z": 300
+      },
+      "type": "magic_shop",
+      "inventory": [],
+      "prices": {},
+      "reputation": 100,
+      "trades": 0,
+      "established": 1769874981985,
+      "isOpen": true
+    }
+  },
+  "trades": [],
+  "priceHistory": {},
+  "marketEvents": [
+    {
+      "type": "shop_opened",
+      "shopId": "shop_1769874981983",
+      "owner": "Merchant_Maya",
+      "timestamp": 1769874981983
+    },
+    {
+      "type": "shop_opened",
+      "shopId": "shop_1769874981984",
+      "owner": "Blacksmith_Blaze",
+      "timestamp": 1769874981984
+    },
+    {
+      "type": "shop_opened",
+      "shopId": "shop_1769874981984",
+      "owner": "Farmer_Flora",
+      "timestamp": 1769874981984
+    },
+    {
+      "type": "shop_opened",
+      "shopId": "shop_1769874981985",
+      "owner": "Miner_Magnus",
+      "timestamp": 1769874981985
+    },
+    {
+      "type": "shop_opened",
+      "shopId": "shop_1769874981985",
+      "owner": "Mystic_Merlin",
+      "timestamp": 1769874981985
+    }
+  ]
+}
