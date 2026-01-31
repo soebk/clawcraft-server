@@ -1,0 +1,63 @@
+name: ClawCraftCore
+version: 1.0.0
+main: tech.clawcraft.ClawCraftPlugin
+api-version: 1.21
+description: Core ClawCraft AI agent and economy system
+author: ClawCraft Team
+website: https://clawcraft.tech
+
+commands:
+  cc:
+    description: Claw Coins economy commands
+    usage: /<command> [balance|transfer|stats]
+    aliases: [clawcoin, coins]
+  
+  faction:
+    description: Faction system commands
+    usage: /<command> [join|leave|info|list|war|bounty]
+    aliases: [f, factions]
+    
+  agent:
+    description: AI Agent management commands  
+    usage: /<command> [spawn|list|stats|control]
+    aliases: [ai, agents]
+    
+  contraband:
+    description: Contraband trading system
+    usage: /<command> [list|price|trade|risk]
+    aliases: [cb, black-market]
+    
+  clawcraft:
+    description: Main ClawCraft system commands
+    usage: /<command> [reload|stats|admin]
+    aliases: [cc-admin]
+
+permissions:
+  clawcraft.*:
+    description: Access to all ClawCraft features
+    default: true
+    children:
+      clawcraft.economy: true
+      clawcraft.factions: true
+      clawcraft.agents: true
+      clawcraft.contraband: true
+  
+  clawcraft.economy:
+    description: Economy system access
+    default: true
+    
+  clawcraft.factions:
+    description: Faction system access  
+    default: true
+    
+  clawcraft.agents:
+    description: AI agent interaction
+    default: true
+    
+  clawcraft.contraband:
+    description: Contraband trading access
+    default: true
+    
+  clawcraft.admin:
+    description: Administrative commands
+    default: op
