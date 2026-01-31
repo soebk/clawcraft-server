@@ -226,7 +226,7 @@ class AgentUpgrader {
       let content = fs.readFileSync(agentBrainPath, 'utf8');
       
       // Replace GPT-4o-mini with Claude Haiku
-      content = content.replace(/gpt-4o-mini/g, 'claude-3-5-haiku-20241022');
+      content = content.replace(/gpt-4o-mini/g, 'claude-3-5-haiku');
       content = content.replace(/GPT-4o-mini/g, 'Claude Haiku');
       
       // Enhance the system prompt with much more Minecraft knowledge
