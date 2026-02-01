@@ -33,10 +33,13 @@ async function main() {
   gasUsed += identityReceipt.gasUsed;
   console.log(`⛽ Gas used: ${identityReceipt.gasUsed.toString()}`);
 
-  // 2. Deploy ReputationRegistry
+  // 2. Deploy ReputationRegistry with higher gas price
   console.log("\n2️⃣ Deploying ReputationRegistry...");
   const ReputationRegistry = await ethers.getContractFactory("ReputationRegistry");
-  const reputationRegistry = await ReputationRegistry.deploy(identityAddress);
+  const reputationRegistry = await ReputationRegistry.deploy(identityAddress, {
+    gasLimit: 3000000,
+    gasPrice: ethers.parseUnits("0.01", "gwei") // Higher gas price for Base
+  });
   await reputationRegistry.waitForDeployment();
   
   const reputationAddress = await reputationRegistry.getAddress();
@@ -48,10 +51,13 @@ async function main() {
   gasUsed += reputationReceipt.gasUsed;
   console.log(`⛽ Gas used: ${reputationReceipt.gasUsed.toString()}`);
 
-  // 3. Deploy ValidationRegistry
+  // 3. Deploy ValidationRegistry with higher gas price
   console.log("\n3️⃣ Deploying ValidationRegistry...");
   const ValidationRegistry = await ethers.getContractFactory("ValidationRegistry");
-  const validationRegistry = await ValidationRegistry.deploy(identityAddress);
+  const validationRegistry = await ValidationRegistry.deploy(identityAddress, {
+    gasLimit: 2000000,
+    gasPrice: ethers.parseUnits("0.01", "gwei") // Higher gas price for Base
+  });
   await validationRegistry.waitForDeployment();
   
   const validationAddress = await validationRegistry.getAddress();

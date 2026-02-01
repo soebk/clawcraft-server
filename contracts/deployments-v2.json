@@ -1,0 +1,14 @@
+{
+  "network": "base",
+  "chainId": 8453,
+  "deployer": "0xa5060F94a92e744C24161e4178349Da57abAA13e",
+  "timestamp": "2026-02-01T11:56:07.016Z",
+  "totalGasUsed": "5015879",
+  "totalCost": "0.000058232343822521",
+  "contracts": {
+    "IdentityRegistry": "0xc488c53fdd58b2f71D4F3469D89458bE0B3a3C41",
+    "ReputationRegistry": "0x2a517f0E8CAa4283dcc0e00D284263766c4d3bc4",
+    "ValidationRegistry": "0x720968f42daFD77392051b61d36f832A5fe3F6fb"
+  },
+  "version": "v2_security_improvements"
+}
