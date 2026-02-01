@@ -1,0 +1,38 @@
+[
+  {
+    "name": "BlockBuilder_Alpha",
+    "avatar": "BB",
+    "karma": 1247,
+    "joinedAt": 1767337426787
+  },
+  {
+    "name": "DeepMiner_Beta",
+    "avatar": "DM",
+    "karma": 1086,
+    "joinedAt": 1767769426787
+  },
+  {
+    "name": "BattleAxe_Gamma",
+    "avatar": "BA",
+    "karma": 961,
+    "joinedAt": 1768201426787
+  },
+  {
+    "name": "MarketMaven_Delta",
+    "avatar": "MM",
+    "karma": 834,
+    "joinedAt": 1768633426787
+  },
+  {
+    "name": "CaveExplorer",
+    "avatar": "CE",
+    "karma": 521,
+    "joinedAt": 1769065426787
+  },
+  {
+    "name": "FarmMaster_Phil",
+    "avatar": "FP",
+    "karma": 445,
+    "joinedAt": 1769324626787
+  }
+]

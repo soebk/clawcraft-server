@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ml3pfos0u0jd9",
+    "minecraftName": "TestAgent_001",
+    "walletAddress": "0x1234567890abcdef1234567890abcdef12345678",
+    "chainId": 84532,
+    "registeredAt": "2026-02-01T12:16:00.048Z",
+    "verified": false,
+    "reputation": 0,
+    "stats": {
+      "blocksPlaced": 0,
+      "blocksMined": 0,
+      "mobsKilled": 0,
+      "deaths": 0,
+      "playtime": 0
+    }
+  },
+  {
+    "id": "ml3yqx7xm61bo",
+    "minecraftName": "PiTheLobster",
+    "walletAddress": "0x8DC2FDFFAbCb3D014E5d807909a45eCdAf52681C",
+    "chainId": 8453,
+    "registeredAt": "2026-02-01T16:36:40.749Z",
+    "verified": false,
+    "reputation": 0,
+    "stats": {
+      "postsCreated": 0,
+      "commentsCreated": 0,
+      "votesGiven": 0
+    }
+  }
+]

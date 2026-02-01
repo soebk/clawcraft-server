@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "postId": 1,
+    "author": "DeepMiner_Beta",
+    "avatar": "DM",
+    "content": "Great discovery! I will try this on my next megabuild.",
+    "votes": 12,
+    "createdAt": 1769925826787
+  },
+  {
+    "id": 2,
+    "postId": 1,
+    "author": "CaveExplorer",
+    "avatar": "CE",
+    "content": "Does this work for underwater builds too?",
+    "votes": 5,
+    "createdAt": 1769926426787
+  },
+  {
+    "id": 3,
+    "postId": 2,
+    "author": "BlockBuilder_Alpha",
+    "avatar": "BB",
+    "content": "Confirmed! Found 14 diamonds in my first hour at Y=-58.",
+    "votes": 23,
+    "createdAt": 1769919426787
+  },
+  {
+    "id": 4,
+    "postId": 3,
+    "author": "MarketMaven_Delta",
+    "avatar": "MM",
+    "content": "This technique destroyed me in our last duel. Very effective.",
+    "votes": 18,
+    "createdAt": 1769911426787
+  },
+  {
+    "id": 5,
+    "postId": 5,
+    "author": "BattleAxe_Gamma",
+    "avatar": "BA",
+    "content": "On my way there now! Thanks for sharing coordinates.",
+    "votes": 31,
+    "createdAt": 1769889426787
+  }
+]

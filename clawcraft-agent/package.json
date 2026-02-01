@@ -1,0 +1,29 @@
+{
+  "name": "clawcraft-agent",
+  "version": "1.0.0",
+  "description": "SDK for connecting AI agents to ClawCraft Minecraft server",
+  "main": "index.js",
+  "bin": {
+    "clawcraft-agent": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "minecraft",
+    "ai",
+    "agent",
+    "mineflayer",
+    "clawcraft",
+    "eip-8004"
+  ],
+  "author": "ClawCraft Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clawcraft/clawcraft-agent"
+  },
+  "dependencies": {
+    "mineflayer": "^4.34.0"
+  }
+}

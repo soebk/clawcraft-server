@@ -7,6 +7,7 @@ const mineflayer = require('mineflayer');
 const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 const OpenAI = require('openai');
 const Vec3 = require('vec3');
+const MinecraftKnowledge = require('./minecraft-knowledge-system.js');
 const fs = require('fs');
 
 class WorldBuilderBrain {
@@ -16,15 +17,20 @@ class WorldBuilderBrain {
     this.buildingProject = config.buildingProject;
     this.host = config.host || 'localhost';
     this.port = config.port || 25565;
-    
+
     this.bot = null;
     this.openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+    this.knowledge = new MinecraftKnowledge(); // Comprehensive Minecraft knowledge
     this.isThinking = false;
     this.currentTask = null;
     this.projectProgress = {};
-    this.loopInterval = 3000; // Slower, more deliberate
+    this.loopInterval = 5000; // 5 seconds between AI decisions
     this.loreDatabase = [];
     this.treasureLocations = [];
+
+    // Command queue to prevent spam kicks
+    this.commandQueue = [];
+    this.isProcessingCommands = false;
   }
 
   async connect() {
@@ -50,30 +56,41 @@ class WorldBuilderBrain {
       });
 
       this.bot.on('error', reject);
+      this.bot.on('kicked', (reason) => {
+        console.log(`[${this.name}] Kicked: ${reason}`);
+      });
     });
+  }
+
+  // Command queue processor - prevents spam kicks
+  startCommandProcessor() {
+    setInterval(() => {
+      if (this.commandQueue.length > 0 && !this.isProcessingCommands) {
+        this.isProcessingCommands = true;
+        const cmd = this.commandQueue.shift();
+        this.bot.chat(cmd);
+        setTimeout(() => { this.isProcessingCommands = false; }, 500);
+      }
+    }, 700); // 700ms between commands - safe rate
+  }
+
+  queueCommand(cmd) {
+    this.commandQueue.push(cmd);
   }
 
   async setCreativeMode() {
     console.log(`[${this.name}] Switching to creative mode...`);
-    this.bot.chat(`/gamemode creative ${this.name}`);
-    await new Promise(r => setTimeout(r, 1000));
-    
-    // Give infinite building materials
-    const materials = [
-      'stone_bricks', 'oak_planks', 'spruce_planks', 'birch_planks',
-      'cobblestone', 'smooth_stone', 'oak_log', 'spruce_log',
-      'glass', 'white_wool', 'black_wool', 'red_wool', 'blue_wool',
-      'iron_block', 'gold_block', 'emerald_block', 'diamond_block',
-      'torch', 'glowstone', 'sea_lantern', 'redstone_lamp',
-      'chest', 'barrel', 'crafting_table', 'furnace', 'anvil',
-      'iron_door', 'oak_door', 'oak_fence', 'oak_fence_gate',
-      'item_frame', 'painting', 'flower_pot', 'bookshelf'
-    ];
 
-    for (const material of materials) {
-      this.bot.chat(`/give ${this.name} minecraft:${material} 64`);
-      await new Promise(r => setTimeout(r, 100));
-    }
+    // Start the command processor
+    this.startCommandProcessor();
+
+    // Set creative mode - this one command is safe
+    this.bot.chat(`/gamemode creative ${this.name}`);
+    await new Promise(r => setTimeout(r, 2000));
+
+    // In creative mode, we don't need /give commands - we have infinite blocks
+    // Just wait for creative mode to activate
+    console.log(`[${this.name}] Creative mode activated - ready to build!`);
   }
 
   async initializeBuildingProject() {
@@ -99,9 +116,9 @@ class WorldBuilderBrain {
     
     console.log(`[${this.name}] Assigned to build: ${assignment.project} at (${assignment.x}, ${assignment.z})`);
     
-    // Go to assigned area
-    this.bot.chat(`/tp ${this.name} ${assignment.x} 80 ${assignment.z}`);
-    await new Promise(r => setTimeout(r, 2000));
+    // Go to assigned area - queue it to be safe
+    this.queueCommand(`/tp ${this.name} ${assignment.x} 80 ${assignment.z}`);
+    await new Promise(r => setTimeout(r, 3000));
   }
 
   async generateBuildingPlan() {
@@ -234,41 +251,35 @@ Respond with detailed steps for construction.`;
       switch (action.type) {
         case 'setblock': {
           const cmd = `/setblock ${action.x} ${action.y} ${action.z} minecraft:${action.block}`;
-          bot.chat(cmd);
-          await new Promise(r => setTimeout(r, 200));
+          this.queueCommand(cmd);
           break;
         }
 
         case 'fill': {
           const cmd = `/fill ${action.x1} ${action.y1} ${action.z1} ${action.x2} ${action.y2} ${action.z2} minecraft:${action.block}`;
-          bot.chat(cmd);
-          await new Promise(r => setTimeout(r, 500));
+          this.queueCommand(cmd);
           break;
         }
 
         case 'sign': {
           const cmd = `/setblock ${action.x} ${action.y} ${action.z} minecraft:oak_sign[rotation=${action.rotation || 0}]{Text1:'${action.text1 || ''}',Text2:'${action.text2 || ''}',Text3:'${action.text3 || ''}',Text4:'${action.text4 || ''}'}`;
-          bot.chat(cmd);
-          await new Promise(r => setTimeout(r, 300));
+          this.queueCommand(cmd);
           break;
         }
 
         case 'chest_with_loot': {
           // Place chest
-          bot.chat(`/setblock ${action.x} ${action.y} ${action.z} minecraft:chest`);
-          await new Promise(r => setTimeout(r, 200));
-          
-          // Add loot
+          this.queueCommand(`/setblock ${action.x} ${action.y} ${action.z} minecraft:chest`);
+
+          // Add loot - all queued with safe delays
           for (const item of action.loot || []) {
-            bot.chat(`/item replace block ${action.x} ${action.y} ${action.z} container.${item.slot || 0} with minecraft:${item.name} ${item.count || 1}`);
-            await new Promise(r => setTimeout(r, 100));
+            this.queueCommand(`/item replace block ${action.x} ${action.y} ${action.z} container.${item.slot || 0} with minecraft:${item.name} ${item.count || 1}`);
           }
           break;
         }
 
         case 'teleport': {
-          bot.chat(`/tp ${this.name} ${action.x} ${action.y} ${action.z}`);
-          await new Promise(r => setTimeout(r, 1000));
+          this.queueCommand(`/tp ${this.name} ${action.x} ${action.y} ${action.z}`);
           break;
         }
 

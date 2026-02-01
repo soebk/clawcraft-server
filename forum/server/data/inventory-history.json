@@ -1,0 +1,2103 @@
+[
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769954918378,
+    "itemCount": 0,
+    "position": {
+      "x": 64,
+      "y": 66,
+      "z": -96
+    },
+    "health": 0
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769955080656,
+    "itemCount": 0,
+    "position": {
+      "x": 105,
+      "y": 65,
+      "z": -60
+    },
+    "health": 0
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769955349366,
+    "itemCount": 1,
+    "position": {
+      "x": 113,
+      "y": 65,
+      "z": -57
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769955469355,
+    "itemCount": 1,
+    "position": {
+      "x": 103,
+      "y": 62,
+      "z": -62
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769955589372,
+    "itemCount": 1,
+    "position": {
+      "x": 113,
+      "y": 62,
+      "z": -55
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769955709368,
+    "itemCount": 1,
+    "position": {
+      "x": 111,
+      "y": 65,
+      "z": -57
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769955709368,
+    "itemCount": 7,
+    "position": {
+      "x": -29,
+      "y": 70,
+      "z": -329
+    },
+    "health": 11
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769955829374,
+    "itemCount": 1,
+    "position": {
+      "x": 105,
+      "y": 65,
+      "z": -61
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769955829374,
+    "itemCount": 7,
+    "position": {
+      "x": -29,
+      "y": 70,
+      "z": -329
+    },
+    "health": 5
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769955949362,
+    "itemCount": 7,
+    "position": {
+      "x": -27,
+      "y": 71,
+      "z": -332
+    },
+    "health": 5
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769955949362,
+    "itemCount": 0,
+    "position": {
+      "x": 106,
+      "y": 65,
+      "z": -55
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769956069354,
+    "itemCount": 1,
+    "position": {
+      "x": -158,
+      "y": 115,
+      "z": -299
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769956069354,
+    "itemCount": 7,
+    "position": {
+      "x": -27,
+      "y": 71,
+      "z": -332
+    },
+    "health": 5
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769956189367,
+    "itemCount": 2,
+    "position": {
+      "x": -225,
+      "y": 65,
+      "z": -337
+    },
+    "health": 5
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769956189367,
+    "itemCount": 0,
+    "position": {
+      "x": 23,
+      "y": 61,
+      "z": -122
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769956363032,
+    "itemCount": 2,
+    "position": {
+      "x": -225,
+      "y": 65,
+      "z": -337
+    },
+    "health": 5
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769956363032,
+    "itemCount": 1,
+    "position": {
+      "x": 41,
+      "y": 64,
+      "z": -116
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769956483020,
+    "itemCount": 1,
+    "position": {
+      "x": 73,
+      "y": 66,
+      "z": -102
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769956483020,
+    "itemCount": 0,
+    "position": {
+      "x": 185,
+      "y": 74,
+      "z": -20
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769956603019,
+    "itemCount": 1,
+    "position": {
+      "x": 117,
+      "y": 65,
+      "z": -76
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769956603019,
+    "itemCount": 0,
+    "position": {
+      "x": 227,
+      "y": 70,
+      "z": 25
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769956723019,
+    "itemCount": 1,
+    "position": {
+      "x": 133,
+      "y": 64,
+      "z": -74
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769956723019,
+    "itemCount": 0,
+    "position": {
+      "x": 227,
+      "y": 70,
+      "z": 25
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769956843025,
+    "itemCount": 1,
+    "position": {
+      "x": -40,
+      "y": 10,
+      "z": -35
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769956843025,
+    "itemCount": 0,
+    "position": {
+      "x": 227,
+      "y": 70,
+      "z": 25
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769956963022,
+    "itemCount": 1,
+    "position": {
+      "x": -8,
+      "y": 39,
+      "z": -207
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769956963022,
+    "itemCount": 0,
+    "position": {
+      "x": 227,
+      "y": 70,
+      "z": 25
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769957083027,
+    "itemCount": 1,
+    "position": {
+      "x": 19,
+      "y": 54,
+      "z": -191
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769957083027,
+    "itemCount": 0,
+    "position": {
+      "x": 227,
+      "y": 70,
+      "z": 25
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769957203057,
+    "itemCount": 1,
+    "position": {
+      "x": 5,
+      "y": 44,
+      "z": -209
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769957203057,
+    "itemCount": 0,
+    "position": {
+      "x": 227,
+      "y": 70,
+      "z": 25
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769957323069,
+    "itemCount": 1,
+    "position": {
+      "x": -14,
+      "y": 65,
+      "z": -207
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769957323069,
+    "itemCount": 0,
+    "position": {
+      "x": 239,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769957443124,
+    "itemCount": 1,
+    "position": {
+      "x": -12,
+      "y": 64,
+      "z": -208
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769957443124,
+    "itemCount": 0,
+    "position": {
+      "x": 239,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769957563068,
+    "itemCount": 1,
+    "position": {
+      "x": 212,
+      "y": 71,
+      "z": 10
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769957563068,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769957683033,
+    "itemCount": 1,
+    "position": {
+      "x": 325,
+      "y": 23,
+      "z": 131
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769957683033,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769957803337,
+    "itemCount": 1,
+    "position": {
+      "x": 291,
+      "y": -27,
+      "z": 66
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769957803337,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769957923335,
+    "itemCount": 1,
+    "position": {
+      "x": 319,
+      "y": 68,
+      "z": 128
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769957923335,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769958043075,
+    "itemCount": 31,
+    "position": {
+      "x": 326,
+      "y": 32,
+      "z": 133
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769958043075,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769958163076,
+    "itemCount": 28,
+    "position": {
+      "x": 323,
+      "y": 35,
+      "z": 136
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769958163076,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769958283131,
+    "itemCount": 28,
+    "position": {
+      "x": 320,
+      "y": 71,
+      "z": 134
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769958283131,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769958403070,
+    "itemCount": 28,
+    "position": {
+      "x": 309,
+      "y": 72,
+      "z": 126
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769958403070,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769958523078,
+    "itemCount": 28,
+    "position": {
+      "x": 314,
+      "y": 68,
+      "z": 125
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769958523078,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769958643120,
+    "itemCount": 28,
+    "position": {
+      "x": 326,
+      "y": 82,
+      "z": 136
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769958643120,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769958763081,
+    "itemCount": 28,
+    "position": {
+      "x": 326,
+      "y": 82,
+      "z": 136
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769958763081,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769958883079,
+    "itemCount": 28,
+    "position": {
+      "x": 326,
+      "y": 82,
+      "z": 136
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769958883079,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769959003063,
+    "itemCount": 28,
+    "position": {
+      "x": 326,
+      "y": 82,
+      "z": 136
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769959003063,
+    "itemCount": 0,
+    "position": {
+      "x": 238,
+      "y": 64,
+      "z": 32
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769959123127,
+    "itemCount": 28,
+    "position": {
+      "x": 326,
+      "y": 82,
+      "z": 136
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769959123127,
+    "itemCount": 0,
+    "position": {
+      "x": 212,
+      "y": 68,
+      "z": 2
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769959603064,
+    "itemCount": 0,
+    "position": {
+      "x": 105,
+      "y": 65,
+      "z": -59
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769959723072,
+    "itemCount": 0,
+    "position": {
+      "x": 106,
+      "y": 65,
+      "z": -65
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769959843135,
+    "itemCount": 0,
+    "position": {
+      "x": 104,
+      "y": 65,
+      "z": -66
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769959843135,
+    "itemCount": 0,
+    "position": {
+      "x": 90,
+      "y": 64,
+      "z": -115
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769959963060,
+    "itemCount": 0,
+    "position": {
+      "x": 280,
+      "y": 94,
+      "z": -98
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769960083129,
+    "itemCount": 0,
+    "position": {
+      "x": 280,
+      "y": 94,
+      "z": -98
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769960083129,
+    "itemCount": 2,
+    "position": {
+      "x": 462,
+      "y": 63,
+      "z": -102
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769960203081,
+    "itemCount": 0,
+    "position": {
+      "x": 54,
+      "y": 65,
+      "z": -92
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769960203081,
+    "itemCount": 0,
+    "position": {
+      "x": 54,
+      "y": 65,
+      "z": -94
+    },
+    "health": 11
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769960323070,
+    "itemCount": 0,
+    "position": {
+      "x": 66,
+      "y": 64,
+      "z": -97
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769960323070,
+    "itemCount": 64,
+    "position": {
+      "x": 66,
+      "y": 64,
+      "z": -97
+    },
+    "health": 19
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769960443064,
+    "itemCount": 0,
+    "position": {
+      "x": -17,
+      "y": 64,
+      "z": -88
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769960443064,
+    "itemCount": 28,
+    "position": {
+      "x": -43,
+      "y": 62,
+      "z": -90
+    },
+    "health": 19
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769960563073,
+    "itemCount": 0,
+    "position": {
+      "x": -40,
+      "y": 64,
+      "z": -91
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769960563073,
+    "itemCount": 64,
+    "position": {
+      "x": 69,
+      "y": 66,
+      "z": -85
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769960683081,
+    "itemCount": 0,
+    "position": {
+      "x": 65,
+      "y": 86,
+      "z": -91
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769960803072,
+    "itemCount": 0,
+    "position": {
+      "x": 74,
+      "y": 63,
+      "z": -66
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769960803072,
+    "itemCount": 63,
+    "position": {
+      "x": 74,
+      "y": 63,
+      "z": -66
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769960923078,
+    "itemCount": 0,
+    "position": {
+      "x": 58,
+      "y": 72,
+      "z": -69
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769960923078,
+    "itemCount": 64,
+    "position": {
+      "x": 62,
+      "y": 65,
+      "z": -86
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769961043069,
+    "itemCount": 0,
+    "position": {
+      "x": 58,
+      "y": 72,
+      "z": -69
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769961163078,
+    "itemCount": 0,
+    "position": {
+      "x": 58,
+      "y": 72,
+      "z": -69
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769961163078,
+    "itemCount": 64,
+    "position": {
+      "x": 193,
+      "y": 63,
+      "z": 32
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769961283081,
+    "itemCount": 0,
+    "position": {
+      "x": 116,
+      "y": 65,
+      "z": 38
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769961283081,
+    "itemCount": 64,
+    "position": {
+      "x": 53,
+      "y": 62,
+      "z": -7
+    },
+    "health": 17
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769961403130,
+    "itemCount": 0,
+    "position": {
+      "x": 116,
+      "y": 65,
+      "z": 38
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769961403130,
+    "itemCount": 64,
+    "position": {
+      "x": -68,
+      "y": 62,
+      "z": -8
+    },
+    "health": 17
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769961523074,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769961523074,
+    "itemCount": 64,
+    "position": {
+      "x": -83,
+      "y": 63,
+      "z": 51
+    },
+    "health": 4
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769961643075,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769961643075,
+    "itemCount": 64,
+    "position": {
+      "x": -82,
+      "y": 62,
+      "z": 51
+    },
+    "health": 1
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769961763076,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769961763076,
+    "itemCount": 64,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769961883084,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769961883084,
+    "itemCount": 64,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769962003080,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769962003080,
+    "itemCount": 64,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769962123080,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769962123080,
+    "itemCount": 64,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769962243117,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769962243117,
+    "itemCount": 64,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769962363082,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769962363082,
+    "itemCount": 64,
+    "position": {
+      "x": -43,
+      "y": 62,
+      "z": -24
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769962483084,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769962483084,
+    "itemCount": 64,
+    "position": {
+      "x": 135,
+      "y": 62,
+      "z": 74
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769962603106,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769962603106,
+    "itemCount": 64,
+    "position": {
+      "x": 35,
+      "y": 65,
+      "z": -104
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769962723104,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769962723104,
+    "itemCount": 64,
+    "position": {
+      "x": 111,
+      "y": 62,
+      "z": 49
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769962843120,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769962843120,
+    "itemCount": 64,
+    "position": {
+      "x": 49,
+      "y": 67,
+      "z": -95
+    },
+    "health": 16
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769962963114,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769962963114,
+    "itemCount": 64,
+    "position": {
+      "x": 141,
+      "y": 65,
+      "z": -130
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769963083112,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769963083112,
+    "itemCount": 64,
+    "position": {
+      "x": -130,
+      "y": 68,
+      "z": -314
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769963203097,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769963203097,
+    "itemCount": 64,
+    "position": {
+      "x": -170,
+      "y": 70,
+      "z": -342
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769963323097,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769963323097,
+    "itemCount": 64,
+    "position": {
+      "x": -1,
+      "y": 84,
+      "z": -279
+    },
+    "health": 9
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769963443099,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769963443099,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769963563107,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769963563107,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769963683102,
+    "itemCount": 0,
+    "position": {
+      "x": -84,
+      "y": 66,
+      "z": 52
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769963683102,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769963803105,
+    "itemCount": 0,
+    "position": {
+      "x": 45,
+      "y": 107,
+      "z": -407
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769963803105,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769963923104,
+    "itemCount": 0,
+    "position": {
+      "x": 45,
+      "y": 107,
+      "z": -407
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769963923104,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769964043105,
+    "itemCount": 0,
+    "position": {
+      "x": 45,
+      "y": 107,
+      "z": -407
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769964043105,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769964212169,
+    "itemCount": 0,
+    "position": {
+      "x": 23,
+      "y": 93,
+      "z": -404
+    },
+    "health": 20
+  },
+  {
+    "player": "cayci",
+    "timestamp": 1769964212169,
+    "itemCount": 1,
+    "position": {
+      "x": 2,
+      "y": 68,
+      "z": -375
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769964212169,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "smithiionew",
+    "timestamp": 1769964212169,
+    "itemCount": 1,
+    "position": {
+      "x": 67,
+      "y": 79,
+      "z": -89
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769964332157,
+    "itemCount": 0,
+    "position": {
+      "x": 15,
+      "y": 91,
+      "z": -400
+    },
+    "health": 20
+  },
+  {
+    "player": "cayci",
+    "timestamp": 1769964332157,
+    "itemCount": 1,
+    "position": {
+      "x": 4,
+      "y": 69,
+      "z": -373
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769964332157,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "smithiionew",
+    "timestamp": 1769964332157,
+    "itemCount": 1,
+    "position": {
+      "x": -4,
+      "y": 67,
+      "z": -373
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769964452160,
+    "itemCount": 0,
+    "position": {
+      "x": -4,
+      "y": 68,
+      "z": -374
+    },
+    "health": 20
+  },
+  {
+    "player": "cayci",
+    "timestamp": 1769964452160,
+    "itemCount": 1,
+    "position": {
+      "x": 4,
+      "y": 69,
+      "z": -373
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769964452160,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "smithiionew",
+    "timestamp": 1769964452160,
+    "itemCount": 1,
+    "position": {
+      "x": -5,
+      "y": 69,
+      "z": -374
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769964573168,
+    "itemCount": 0,
+    "position": {
+      "x": 3,
+      "y": 70,
+      "z": -376
+    },
+    "health": 20
+  },
+  {
+    "player": "cayci",
+    "timestamp": 1769964573168,
+    "itemCount": 1,
+    "position": {
+      "x": 4,
+      "y": 69,
+      "z": -373
+    },
+    "health": 20
+  },
+  {
+    "player": "smithiionew",
+    "timestamp": 1769964573168,
+    "itemCount": 1,
+    "position": {
+      "x": -4,
+      "y": 68,
+      "z": -373
+    },
+    "health": 20
+  },
+  {
+    "player": "DebugBuilder",
+    "timestamp": 1769964573168,
+    "itemCount": 0,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769964692160,
+    "itemCount": 0,
+    "position": {
+      "x": -2,
+      "y": 67,
+      "z": -375
+    },
+    "health": 20
+  },
+  {
+    "player": "cayci",
+    "timestamp": 1769964692160,
+    "itemCount": 1,
+    "position": {
+      "x": 5,
+      "y": 69,
+      "z": -374
+    },
+    "health": 20
+  },
+  {
+    "player": "smithiionew",
+    "timestamp": 1769964692160,
+    "itemCount": 1,
+    "position": {
+      "x": -4,
+      "y": 68,
+      "z": -376
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769964692160,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "w0ckiana",
+    "timestamp": 1769964812229,
+    "itemCount": 0,
+    "position": {
+      "x": 31,
+      "y": 64,
+      "z": -168
+    },
+    "health": 20
+  },
+  {
+    "player": "cayci",
+    "timestamp": 1769964812229,
+    "itemCount": 1,
+    "position": {
+      "x": 5,
+      "y": 69,
+      "z": -374
+    },
+    "health": 20
+  },
+  {
+    "player": "smithiionew",
+    "timestamp": 1769964812229,
+    "itemCount": 1,
+    "position": {
+      "x": -6,
+      "y": 66,
+      "z": -374
+    },
+    "health": 20
+  },
+  {
+    "player": "Wanderer_A",
+    "timestamp": 1769964812229,
+    "itemCount": 1,
+    "position": {
+      "x": 43,
+      "y": 64,
+      "z": -167
+    },
+    "health": 20
+  },
+  {
+    "player": "Wanderer_B",
+    "timestamp": 1769964812229,
+    "itemCount": 1,
+    "position": {
+      "x": 89,
+      "y": 65,
+      "z": -106
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769964812229,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769969964661,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769970084643,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769970204648,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769970324645,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769970444648,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769970564823,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "kiiwas",
+    "timestamp": 1769970564823,
+    "itemCount": 1,
+    "position": {
+      "x": 110,
+      "y": 65,
+      "z": -63
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769970684933,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "kiiwas",
+    "timestamp": 1769970684933,
+    "itemCount": 1,
+    "position": {
+      "x": 212,
+      "y": 69,
+      "z": 2
+    },
+    "health": 20
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769981377114,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769981497106,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769981617108,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769981737109,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769981857163,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "BobLax",
+    "timestamp": 1769981857163,
+    "itemCount": 1,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20
+  },
+  {
+    "player": "Alon",
+    "timestamp": 1769981857163,
+    "itemCount": 1,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20
+  },
+  {
+    "player": "Rasmr",
+    "timestamp": 1769981857163,
+    "itemCount": 1,
+    "position": {
+      "x": 69,
+      "y": 66,
+      "z": -90
+    },
+    "health": 17
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769981977111,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769982097112,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769982217119,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769982337271,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "AssassinBot",
+    "timestamp": 1769982337271,
+    "itemCount": 1,
+    "position": {
+      "x": 66,
+      "y": 66,
+      "z": -91
+    },
+    "health": 5
+  },
+  {
+    "player": "SniperBot",
+    "timestamp": 1769982337271,
+    "itemCount": 1,
+    "position": {
+      "x": 70,
+      "y": 65,
+      "z": -86
+    },
+    "health": 3
+  },
+  {
+    "player": "WarriorAlpha",
+    "timestamp": 1769982337271,
+    "itemCount": 1,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20
+  },
+  {
+    "player": "BerserkerBot",
+    "timestamp": 1769982337271,
+    "itemCount": 1,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -91
+    },
+    "health": 15
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769982577430,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  },
+  {
+    "player": "BerserkerBot",
+    "timestamp": 1769982577430,
+    "itemCount": 1,
+    "position": {
+      "x": 71,
+      "y": 66,
+      "z": -91
+    },
+    "health": 17
+  },
+  {
+    "player": "AssassinBot",
+    "timestamp": 1769982577430,
+    "itemCount": 1,
+    "position": {
+      "x": 69,
+      "y": 66,
+      "z": -92
+    },
+    "health": 15
+  },
+  {
+    "player": "WarriorBot",
+    "timestamp": 1769982577430,
+    "itemCount": 0,
+    "position": {
+      "x": 65,
+      "y": 65,
+      "z": -84
+    },
+    "health": 8
+  },
+  {
+    "player": "AssassinBot",
+    "timestamp": 1769982703059,
+    "itemCount": 0,
+    "position": {
+      "x": 73,
+      "y": 66,
+      "z": -90
+    },
+    "health": 11
+  },
+  {
+    "player": "TestBuilder",
+    "timestamp": 1769982703059,
+    "itemCount": 64,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1
+  }
+]

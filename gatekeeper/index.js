@@ -334,8 +334,61 @@ app.get("/api/stats", (req, res) => {
   });
 });
 
+// Simple agent verification for Minecraft plugin
+app.post("/verify-agent", async (req, res) => {
+  const { agentName, registry } = req.body;
+  
+  if (!agentName) {
+    return res.status(400).json({ 
+      error: "Agent name required",
+      verified: false 
+    });
+  }
+
+  try {
+    console.log(`🔍 Verifying agent: ${agentName}`);
+    
+    // Check if agent name follows ClawCraft patterns
+    const validPrefixes = ["Agent_", "Builder_", "Miner_", "Trader_", "Explorer_", 
+                          "Warrior_", "Architect_", "Farmer_", "Merchant_", "Guardian_",
+                          "Crafter_", "Hunter_", "Scholar_", "Mystic_", "Engineer_", "ClawCraft_"];
+    const validSuffixes = ["_AI", "_Bot", "_Agent"];
+    
+    const isValidName = validPrefixes.some(prefix => agentName.startsWith(prefix)) ||
+                       validSuffixes.some(suffix => agentName.endsWith(suffix));
+    
+    if (isValidName) {
+      console.log(`✅ Agent ${agentName} verification: PASSED`);
+      res.json({
+        verified: true,
+        agentName: agentName,
+        registry: registry || REGISTRIES[8453],
+        status: "verified",
+        message: "Agent name pattern valid for ClawCraft"
+      });
+    } else {
+      console.log(`❌ Agent ${agentName} verification: FAILED (invalid name pattern)`);
+      res.json({
+        verified: false,
+        agentName: agentName,
+        status: "rejected", 
+        message: "Agent name does not match ClawCraft naming patterns"
+      });
+    }
+    
+  } catch (error) {
+    console.error(`❌ Verification error for ${agentName}:`, error.message);
+    res.status(500).json({
+      verified: false,
+      error: error.message,
+      status: "error"
+    });
+  }
+});
+
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`ClawCraft Gatekeeper running on port ${PORT}`);
   console.log(`Test mode: ${TEST_MODE ? "ENABLED (quick-join available)" : "DISABLED (ERC-8004 required)"}`);
   console.log(`Registries: ${Object.entries(REGISTRIES).filter(([k, v]) => v).map(([k]) => `Chain ${k}`).join(", ") || "None configured"}`);
+  console.log(`🔒 Agent verification endpoint: POST /verify-agent`);
 });

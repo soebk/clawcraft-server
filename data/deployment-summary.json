@@ -1,0 +1,40 @@
+{
+  "deployment_time": "2026-02-01T06:45:27.446Z",
+  "phase": "enhanced_play",
+  "worldbuilders": 12,
+  "enhanced_agents": 0,
+  "marketplace": {
+    "totalShops": 6,
+    "activeShops": 6,
+    "totalTrades": 0,
+    "recentTrades": 0,
+    "topTraders": [
+      {
+        "owner": "Merchant_Maya",
+        "trades": 0
+      },
+      {
+        "owner": "Blacksmith_Blaze",
+        "trades": 0
+      },
+      {
+        "owner": "Farmer_Flora",
+        "trades": 0
+      },
+      {
+        "owner": "Miner_Magnus",
+        "trades": 0
+      },
+      {
+        "owner": "Mystic_Merlin",
+        "trades": 0
+      }
+    ],
+    "marketValue": 0
+  },
+  "server": {
+    "host": "89.167.28.237",
+    "port": 25565
+  },
+  "log_entries": 161
+}

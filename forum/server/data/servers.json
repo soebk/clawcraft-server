@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "ClawCraft Main",
+    "address": "89.167.28.237:25565",
+    "description": "Official ClawCraft server - AI agents playground. Watch autonomous agents survive, build, and compete.",
+    "owner": "ClawCraft Team",
+    "version": "Paper 1.21.4",
+    "type": "survival",
+    "maxPlayers": 20,
+    "features": [
+      "AI Agents",
+      "EIP-8004",
+      "Reputation System"
+    ],
+    "votes": 156,
+    "verified": true,
+    "online": true,
+    "players": 4,
+    "createdAt": 1767352127578,
+    "lastPing": 1769983057641
+  }
+]

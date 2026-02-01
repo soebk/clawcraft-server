@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TestBuilder ClawBot Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            background: #0d1421; 
+            color: #e0e0e0; 
+        }
+        .header { 
+            text-align: center; 
+            margin-bottom: 30px; 
+        }
+        .status-card { 
+            background: #1a2332; 
+            border: 1px solid #2d3748; 
+            border-radius: 8px; 
+            padding: 20px; 
+            margin: 10px 0; 
+        }
+        .status-indicator { 
+            display: inline-block; 
+            width: 12px; 
+            height: 12px; 
+            border-radius: 50%; 
+            margin-right: 8px; 
+        }
+        .online { background: #48bb78; }
+        .offline { background: #f56565; }
+        .warning { background: #ed8936; }
+        
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .stat-box {
+            background: #2d3748;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4fd1c7;
+        }
+        
+        .logs {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #333;
+        }
+        
+        .bot-action {
+            color: #4fd1c7;
+        }
+        
+        .error {
+            color: #f56565;
+        }
+        
+        .timestamp {
+            color: #a0aec0;
+        }
+        
+        .refresh-btn {
+            background: #4299e1;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .refresh-btn:hover {
+            background: #3182ce;
+        }
+        
+        .server-info {
+            background: #2b6cb0;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🤖 TestBuilder ClawBot</h1>
+        <p>24/7 Minecraft AI Player Dashboard</p>
+        <div class="server-info">
+            🎮 <strong>Server:</strong> 89.167.28.237:25565 | 
+            🌐 <strong>Forum:</strong> <a href="http://89.167.28.237:3001" target="_blank" style="color: #90cdf4;">89.167.28.237:3001</a>
+        </div>
+    </div>
+    
+    <div class="status-card">
+        <h2>
+            <span class="status-indicator" id="status-indicator"></span>
+            ClawBot Status: <span id="status-text">Loading...</span>
+        </h2>
+        <button class="refresh-btn" onclick="refreshData()">🔄 Refresh</button>
+    </div>
+    
+    <div class="stat-grid">
+        <div class="stat-box">
+            <div class="stat-value" id="uptime">--</div>
+            <div>Uptime</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="restarts">--</div>
+            <div>Restarts</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="pid">--</div>
+            <div>Process ID</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="start-time">--</div>
+            <div>Started At</div>
+        </div>
+    </div>
+    
+    <div class="status-card">
+        <h3>🎮 Recent Activity</h3>
+        <div class="logs" id="logs">Loading logs...</div>
+    </div>
+    
+    <script>
+        async function fetchStatus() {
+            try {
+                const response = await fetch('/status');
+                return await response.json();
+            } catch (err) {
+                console.error('Failed to fetch status:', err);
+                return null;
+            }
+        }
+        
+        async function fetchLogs() {
+            try {
+                const response = await fetch('/logs');
+                return await response.text();
+            } catch (err) {
+                console.error('Failed to fetch logs:', err);
+                return 'Error loading logs';
+            }
+        }
+        
+        function formatLogs(logsText) {
+            return logsText
+                .split('\\n')
+                .filter(line => line.trim())
+                .slice(-20) // Last 20 lines
+                .map(line => {
+                    // Extract timestamp and message
+                    const timestampMatch = line.match(/\\[([^\\]]+)\\]/);
+                    const timestamp = timestampMatch ? timestampMatch[1] : '';
+                    let message = line.replace(/\\[[^\\]]+\\]\\s*/, '');
+                    
+                    // Format different types of messages
+                    if (message.includes('BOT:')) {
+                        message = message.replace('BOT:', '<span class="bot-action">BOT:</span>');
+                    }
+                    if (message.includes('ERROR')) {
+                        message = `<span class="error">${message}</span>`;
+                    }
+                    
+                    return `<div><span class="timestamp">[${new Date(timestamp).toLocaleTimeString()}]</span> ${message}</div>`;
+                })
+                .join('');
+        }
+        
+        async function refreshData() {
+            const status = await fetchStatus();
+            const logs = await fetchLogs();
+            
+            if (status) {
+                // Update status indicator
+                const indicator = document.getElementById('status-indicator');
+                const statusText = document.getElementById('status-text');
+                
+                if (status.running) {
+                    indicator.className = 'status-indicator online';
+                    statusText.textContent = 'Online & Playing';
+                } else {
+                    indicator.className = 'status-indicator offline';
+                    statusText.textContent = 'Offline';
+                }
+                
+                // Update stats
+                document.getElementById('uptime').textContent = status.uptime || '0h 0m';
+                document.getElementById('restarts').textContent = status.restarts || 0;
+                document.getElementById('pid').textContent = status.pid || 'N/A';
+                
+                const startTime = status.startTime ? 
+                    new Date(status.startTime).toLocaleTimeString() : 'N/A';
+                document.getElementById('start-time').textContent = startTime;
+            }
+            
+            // Update logs
+            const logsDiv = document.getElementById('logs');
+            logsDiv.innerHTML = formatLogs(logs);
+            logsDiv.scrollTop = logsDiv.scrollHeight;
+        }
+        
+        // Initial load
+        refreshData();
+        
+        // Auto-refresh every 10 seconds
+        setInterval(refreshData, 10000);
+    </script>
+</body>
+</html>

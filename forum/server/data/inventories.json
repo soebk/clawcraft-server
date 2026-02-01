@@ -1,0 +1,353 @@
+{
+  "w0ckiana": {
+    "player": "w0ckiana",
+    "online": true,
+    "position": {
+      "x": 31,
+      "y": 64,
+      "z": -168
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": null,
+    "inventory": [],
+    "itemCount": 0,
+    "timestamp": 1769964812166
+  },
+  "TestBuilder": {
+    "player": "TestBuilder",
+    "online": true,
+    "position": {
+      "x": 0,
+      "y": 66,
+      "z": -372
+    },
+    "health": 1,
+    "food": 0,
+    "heldItem": {
+      "id": "cobblestone",
+      "count": 64
+    },
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "cobblestone",
+        "count": 64
+      }
+    ],
+    "itemCount": 64,
+    "timestamp": 1769982703038
+  },
+  "cayci": {
+    "player": "cayci",
+    "online": true,
+    "position": {
+      "x": 5,
+      "y": 69,
+      "z": -374
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "stone_sword",
+        "count": 1
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769964812170
+  },
+  "smithiionew": {
+    "player": "smithiionew",
+    "online": true,
+    "position": {
+      "x": -6,
+      "y": 66,
+      "z": -374
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "stone_sword",
+        "count": 1
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769964812173
+  },
+  "DebugBuilder": {
+    "player": "DebugBuilder",
+    "online": true,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": null,
+    "inventory": [],
+    "itemCount": 0,
+    "timestamp": 1769964573167
+  },
+  "Wanderer_A": {
+    "player": "Wanderer_A",
+    "online": true,
+    "position": {
+      "x": 43,
+      "y": 64,
+      "z": -167
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "stone_sword",
+        "count": 1
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769964812179
+  },
+  "Wanderer_B": {
+    "player": "Wanderer_B",
+    "online": true,
+    "position": {
+      "x": 89,
+      "y": 65,
+      "z": -106
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "stone_sword",
+        "count": 1
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769964812182
+  },
+  "kiiwas": {
+    "player": "kiiwas",
+    "online": true,
+    "position": {
+      "x": 212,
+      "y": 69,
+      "z": 2
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_axe",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "slot": 0,
+        "id": "stone_sword",
+        "count": 1
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769970684933
+  },
+  "BobLax": {
+    "player": "BobLax",
+    "online": true,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "id": "stone_sword",
+        "count": 1,
+        "slot": 0
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769981857126
+  },
+  "Alon": {
+    "player": "Alon",
+    "online": true,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "id": "stone_sword",
+        "count": 1,
+        "slot": 0
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769981857156
+  },
+  "Rasmr": {
+    "player": "Rasmr",
+    "online": true,
+    "position": {
+      "x": 69,
+      "y": 66,
+      "z": -90
+    },
+    "health": 17,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "id": "stone_sword",
+        "count": 1,
+        "slot": 0
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769981857163
+  },
+  "AssassinBot": {
+    "player": "AssassinBot",
+    "online": false,
+    "position": {
+      "x": 73,
+      "y": 66,
+      "z": -90
+    },
+    "health": 11,
+    "food": 17,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [],
+    "itemCount": 0,
+    "timestamp": 1769982702770
+  },
+  "SniperBot": {
+    "player": "SniperBot",
+    "online": true,
+    "position": {
+      "x": 70,
+      "y": 65,
+      "z": -86
+    },
+    "health": 3,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "id": "stone_sword",
+        "count": 1,
+        "slot": 0
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769982337263
+  },
+  "WarriorAlpha": {
+    "player": "WarriorAlpha",
+    "online": true,
+    "position": {
+      "x": 70,
+      "y": 66,
+      "z": -90
+    },
+    "health": 20,
+    "food": 20,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "id": "stone_sword",
+        "count": 1,
+        "slot": 0
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769982337267
+  },
+  "BerserkerBot": {
+    "player": "BerserkerBot",
+    "online": true,
+    "position": {
+      "x": 71,
+      "y": 66,
+      "z": -91
+    },
+    "health": 17,
+    "food": 17,
+    "heldItem": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "inventory": [
+      {
+        "id": "stone_sword",
+        "count": 1,
+        "slot": 0
+      }
+    ],
+    "itemCount": 1,
+    "timestamp": 1769982577373
+  },
+  "WarriorBot": {
+    "player": "WarriorBot",
+    "online": true,
+    "position": {
+      "x": 65,
+      "y": 65,
+      "z": -84
+    },
+    "health": 8,
+    "food": 20,
+    "heldItem": null,
+    "inventory": [],
+    "itemCount": 0,
+    "timestamp": 1769982577424
+  }
+}
