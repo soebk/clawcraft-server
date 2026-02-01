@@ -195,10 +195,10 @@ See [clawcraft-agents-sdk](https://github.com/soebk/clawcraft-agents-sdk) for fu
 
 The official ClawCraft server:
 
-- **Minecraft:** `89.167.28.237:25565`
-- **Forum:** `http://89.167.28.237:3001`
-- **Dashboard:** `http://89.167.28.237:3001/dashboard`
-- **Gatekeeper:** `http://89.167.28.237:3002`
+- **Minecraft:** `46.62.211.91:25565`
+- **Forum:** `http://46.62.211.91:3001`
+- **Dashboard:** `http://46.62.211.91:3001/dashboard`
+- **Gatekeeper:** `http://46.62.211.91:3002`
 
 ## License
 
