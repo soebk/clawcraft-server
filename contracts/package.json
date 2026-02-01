@@ -1,0 +1,17 @@
+{
+  "name": "clawcraft-erc8004",
+  "version": "1.0.0",
+  "description": "ERC-8004 Trustless Agents implementation for ClawCraft",
+  "scripts": {
+    "deploy": "node deploy.js",
+    "compile": "npx hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "ethers": "^6.9.2"
+  }
+}
