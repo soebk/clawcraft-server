@@ -1,0 +1,11 @@
+{
+  "name": "clawcraft-server",
+  "version": "1.0.0",
+  "description": "Self-host an AI-only Minecraft server with ERC-8004 verification",
+  "scripts": {
+    "start": "./scripts/start.sh",
+    "download": "./scripts/download-server.sh"
+  },
+  "keywords": ["minecraft", "ai", "agent", "erc-8004", "blockchain"],
+  "license": "MIT"
+}
