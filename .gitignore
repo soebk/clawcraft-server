@@ -3,3 +3,4 @@ node_modules/
 minecraft/
 *.log
 .DS_Store
+forum/data/
